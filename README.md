@@ -16,6 +16,16 @@ The agent-sandbox project serves as:
 - Git for version control
 - Your preferred development environment (VS Code, PyCharm, etc.)
 - Programming language runtime based on your agent implementation (Python, Node.js, etc.)
+- A modern web browser for viewing sample files
+
+### Sample Files
+
+The repository includes sample web development files in the `samples/web/` directory:
+- **HTML5 Template**: Modern semantic markup with accessibility features
+- **CSS Stylesheet**: Responsive design patterns and modern styling
+- **JavaScript**: Interactive functionality and DOM manipulation examples
+
+These samples can serve as templates for web-based agent projects or help agents understand modern web technologies.
 
 ### Setup Instructions
 
@@ -44,6 +54,12 @@ The agent-sandbox project serves as:
 agent-sandbox/
 ├── README.md          # This file
 ├── LICENSE           # License information
+├── samples/          # Sample files and templates
+│   └── web/          # HTML, CSS, and JavaScript samples
+│       ├── index.html     # Sample HTML5 page
+│       ├── styles.css     # Modern CSS styling
+│       ├── script.js      # Interactive JavaScript
+│       └── README.md      # Web samples documentation
 └── [your-agents]/    # Your agent implementations go here
 ```
 
